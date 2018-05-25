@@ -1,0 +1,15 @@
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\bin\Debug\Sorry.exe.config
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\bin\Debug\Sorry.exe
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\bin\Debug\Sorry.pdb
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\obj\Debug\Sorry.csprojAssemblyReference.cache
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\obj\Debug\MainWindow.g.cs
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\obj\Debug\App.g.cs
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\obj\Debug\Sorry_MarkupCompile.cache
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\obj\Debug\Sorry_MarkupCompile.lref
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\obj\Debug\MainWindow.baml
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\obj\Debug\Sorry.g.resources
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\obj\Debug\Sorry.Properties.Resources.resources
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\obj\Debug\Sorry.csproj.GenerateResource.cache
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\obj\Debug\Sorry.csproj.CoreCompileInputs.cache
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\obj\Debug\Sorry.exe
+C:\Users\jzucca\Desktop\Sorry Project\Sorry\Sorry\obj\Debug\Sorry.pdb

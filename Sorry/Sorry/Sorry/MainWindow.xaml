@@ -1,0 +1,46 @@
+﻿<Window x:Class="Sorry.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sorry"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="682.684" Width="1188.535">
+	<Grid>
+		<Grid Margin="0,0,0,-21">
+			<!--<Button x:Name="genButton" Content="Draw Card" HorizontalAlignment="Left" Height="39" Margin="109,10,0,0" VerticalAlignment="Top" Width="111" Click="drawCard"/>-->
+			<Border x:Name="cardBorder"  BorderBrush="Black" BorderThickness="3" CornerRadius="8,8,8,8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="44,75,44,0" Width="255" Height="355">
+				<Grid x:Name="bakcOfCard" Margin="7" MouseLeftButtonDown="drawCardClick">
+					<Grid.Background>
+						<ImageBrush ImageSource="C:\Users\jzucca\Desktop\Sorry!\CardGenerator\CardGenerator\BackOfCard.png"/>
+					</Grid.Background>
+					<Rectangle x:Name="starburst" Margin="34,70,34,70" >
+
+					</Rectangle>
+					<Label x:Name="bottomRightNumber" FontSize="26px" FontWeight="Bold" Content="" Padding="10" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Margin="113,272,0,0" RenderTransformOrigin="0.5,0.5">
+						<Label.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform/>
+								<SkewTransform/>
+								<RotateTransform Angle="180.586"/>
+								<TranslateTransform/>
+							</TransformGroup>
+						</Label.RenderTransform>
+					</Label>
+					<Label x:Name="topLeftNumber" FontSize="26px" FontWeight="Bold" Content="" Padding="10" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"  Margin="0,0,125,284"/>
+					<TextBlock x:Name="centerText" Text="" FontSize="14" TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="23,85,10,171" TextWrapping="Wrap" Width="202" Height="79" />
+					<TextBlock x:Name="upsideText" Text="" FontSize="14" TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="33,167,17,89" TextWrapping="Wrap" Width="185" Height="79" RenderTransformOrigin="0.5,0.5" >
+						<TextBlock.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform/>
+								<SkewTransform/>
+								<RotateTransform Angle="180.013"/>
+								<TranslateTransform/>
+							</TransformGroup>
+						</TextBlock.RenderTransform>
+					</TextBlock>
+				</Grid>
+			</Border>
+		</Grid>
+	</Grid>
+</Window>
